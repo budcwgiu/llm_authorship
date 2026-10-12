@@ -1,9 +1,4 @@
-"""
-Who Wrote It? CMPSC 448 midterm pipeline.
 
-Input CSV columns: llm, input, output, [task]   (task is optional, needed for RQ3)
-Usage: python run_all.py --data data.csv --out results
-"""
 import argparse, json, os, re, random
 from collections import Counter
 import numpy as np, pandas as pd
